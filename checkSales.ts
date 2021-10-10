@@ -25,7 +25,7 @@ const buildMessage = (sale: any) => (
 	.setColor('#0099ff')
 	.setTitle(sale.asset.name + ' Sold!')
 	.setURL(sale.asset.permalink)
-	.setAuthor('Elite Sales Bot', 'https://pbs.twimg.com/profile_images/1443849764290891777/uuceHcru_400x400.jpg', 'https://elite9090.com') //CHANGE THIS
+	.setAuthor('Elite Sales Bot', 'https://pbs.twimg.com/profile_images/1445048169704820742/tSNCXNt7_400x400.jpg', 'https://elite9090.com') //CHANGE THIS
 	.setThumbnail(sale.asset.collection.image_url)
 	.addFields(
 		{ name: 'Name', value: sale.asset.name },
